@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title> . . . </title>
+    <script type="text/javascript">
+flag=1
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=390
+            Bn.style.left=30
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+    </script>
+
+</head>
+<body>
+    <div class="description" style="font-size: 13px;">
+        <span>Apakah Anda Berminat Untuk Menjadi Pacarku ?</span>
+    </div>
+    <a href="flower.html"> <button class="button">Yah aku mau</button></a>
+    <br><br><br><br><br>
+    <div ID="Bn" style="position:absolute;">
+    <input class="btn btn-primary" type="button" value=" Gak Mau " onMouseOver="f()" />
+    </div>
+
+</body>
+</html>
